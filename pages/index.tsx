@@ -23,6 +23,7 @@ export default function IndexPage() {
           value={numGames}
           onChange={(val) => setNumGames(val as number)}
           min={1}
+          max={3000}
           w={100}
         />
       </Group>
